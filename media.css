@@ -1,0 +1,142 @@
+@media screen and (max-width:1155px) {
+    .big-imagesection{
+        flex-direction: column-reverse;
+    }
+
+    .big-imagesection .left-side{
+        width: 100%;
+    }
+
+    .big-imagesection .right-side{
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+    }
+    .big-imagesection .right-side .sub-paragraph{
+       margin-inline: 30px;
+    }
+
+    .text-area{
+        float: unset;
+        margin: auto;
+        width:80%;
+        margin-block: 10%;
+    }
+
+    .footer-subsection{
+        flex-direction: column;
+    }
+    .footer-section .footer-subsection div{
+        /* border: 2px solid rebeccapurple; */
+        margin: auto;
+        text-align: center;
+    }
+    .form-section .detail-section input {
+        width:50%;
+    }
+    .form-section .detail-section button{
+        width:30%;
+        font-size: large;
+    }
+
+    .top-banner .personal-detail{
+     display: none
+    }
+    .top-banner .company-name{
+        margin: auto;
+    }
+    .customer-section .sub-heading{
+    width:100%;
+    }
+    .customer-section .sub-heading p{
+        font-size:1.1rem;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .main-section .nav-links{
+       width:100%;
+    }
+   .service{
+    flex-direction: column;
+   }
+   .services-section .service .image{
+   width:100%;
+   }
+   .company-section .paragraph-section p{
+    font-size: 1.1rem;
+   }
+   .company-section .paragraph-section .secondary-button{
+    width:30%;
+   }
+   .feature-area{
+    flex-direction: column;
+    gap:35px;
+   }
+}
+
+@media screen and (max-width:760px) {
+   .main-section .nav-links{
+    display: none;
+   } 
+   .text-area{
+    width:100%;
+    margin-block: 18%;
+   }
+.container{
+    padding-inline: 40px;
+}
+.footer-section .footer-subsection div{
+    width:80%;
+}
+.footer-section .footer-heading .primary-button {
+    width:20%;
+}
+}
+
+@media screen and (max-width:475px) {
+    .container{
+        padding-inline: 10px;
+    }
+    .form-section .detail-section input {
+        width:90%;
+    }
+    .form-section .detail-section button{
+        width:60%;
+        font-size: large;
+    }
+    .footer-section .footer-heading .primary-button {
+        width:30%;
+    }
+    .footer-section .footer-heading input{
+        width:50%;
+    }
+    .text-area{
+        margin-block: 25%;
+       }
+    .text-area .bttn .primary-button ,.secondary-button{
+        width:40%;
+    }
+    .text-area .heading h3 {
+        font-size: 2rem;
+    }
+    .text-area .sub-heading h1{
+        font-size: 2.5rem;
+    }
+    .text-area .sub-paragraph p{
+        font-size: 1.2rem;
+    }
+    .big-imagesection .right-side .heading h3{
+        font-size: 2rem;
+    }
+    .big-imagesection .right-side .sub-paragraph p{
+        font-size: 1.2rem;
+    
+    }
+    .big-imagesection .right-side .primary-button{
+        width:40%
+    }
+    .company-section .paragraph-section .secondary-button{
+        width:50%;
+       }
+}
